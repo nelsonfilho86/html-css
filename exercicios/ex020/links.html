@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+        <style>
+
+            /* SELETORES PERSONALIZADOS
+
+                #   = id
+                .   = class
+                :   = pseudo class
+                ::  = pseudo element
+                >   = clildren(filho, crianças)
+            */
+
+            body {
+                font: normal normal 1.5em arial, sans-serif;
+            }
+
+            a {
+                color: rgb(0, 91, 11);
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: black;
+            }
+
+            a:hover {
+                color: blue;
+                text-decoration: underline;
+                font-weight: bold;    
+            }
+
+            a:active {
+                color: red
+            }
+
+            a::before {
+                content: '⇒ '; 
+            }
+
+            a::after {
+                content: ' ⇐';
+            }
+
+            .especial {
+                background-color: aqua;
+                font-style: italic;
+                font-weight: bolder;
+            }
+        </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://youtube.com/gustavoguanabara/" target="_blank">Canal Youtube</a></li>
+        <li><a href="https://cursoemvideo.com" target="_blank" class="especial">Site Curso em Video</a></li>
+    </ul>
+
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'aliqa';
+            src: url('fonts/aliqa.otf') format('opentype'), url('fonts/aliqa.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            
+        }
+        /*
+        Tipos de format()
+        -opentype(otf)
+        -truetype (ttf)
+        -embedded-opentype
+        -truetype-att(Apple Advanced Typography)
+        -svg
+        */
+
+        body {
+            font-family: 'aliqa';
+            font-size: 2.5em;
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur! Fuga ipsum ipsa, molestias nobis architecto iure tenetur quidem aliquam delectus, dolorum suscipit ratione doloremque corporis incidunt nulla sapiente quo!</p>
+    
+</body>
+</html>

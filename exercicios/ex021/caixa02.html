@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            font: normal normal 'Courier New', Courier, monospace;
+            margin: 0px;
+        }
+
+        header {
+            background-color: darkorange;
+            color: ghostwhite;
+            box-shadow: 5px 5px 5px 2px rgba(62, 34, 0, 0.361);
+            font: normal bolder 1.5em Arial, Helvetica, sans-serif;
+
+            text-align: center;
+            text-shadow: 2px 1px 1px black;
+
+            padding: 10px;
+            border: 5px solid rgb(83, 48, 5);
+            
+            margin: 40px 30px;
+        }
+
+        nav {
+            background-color: rgb(219, 197, 0);
+            padding: 3px;
+            border: 5px solid black;
+            }
+
+        a {
+            background-color: darkmagenta;
+            padding: 1px;
+            border: 1px solid black;
+            border-radius: 15px;
+        
+        }
+
+        nav > a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            color: aqua;
+
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            color: darkgreen;
+        }
+
+        nav >a:active {
+            color: crimson;
+        }
+
+        main {
+            background-color: beige;
+            
+            padding: 10px 10px;
+            border: 3px solid #834805;
+            margin: 10px;
+
+        }
+
+        section {
+            background-color: rgb(202, 220, 219);
+            text-align: justify;
+
+            padding: 2px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        h2 {
+            background-color: black;
+            color: azure;
+        }
+
+        h3 {
+            background-color: lemonchiffon;
+        }
+
+        p {
+            background-color: rgba(0, 139, 139, 0.509);
+        }
+
+        .p-header {
+            background-color: cornflowerblue;
+        }
+
+        article > aside {
+            background-color: rgba(95, 158, 160, 0.47);
+
+            text-align: center;
+            
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        #esportes {
+            background-color: darkgoldenrod;
+        }
+
+        #politica {
+            background-color: coral;
+        }
+
+        #indice {
+            background-color: blueviolet;
+        }
+
+        
+
+        footer {
+            background-color: blue;
+            color: blanchedalmond;
+
+            text-align: center;
+            font-size: 1.3em;
+            text-shadow: 2px 1px 1px rgb(15, 2, 2);
+
+            padding: 0.5px;
+            border: 2px solid black;
+            
+        }
+
+        div#bola {
+            height: 100pt;
+            width: 100pt;
+            margin: 10pt;
+            background-color: #834805;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Nome</h1>
+        <p class="p-header">Aprendendo</p>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="indice">
+            <h2>Assuntos</h2>
+            <ul>
+                <li>
+                    <p>Politica</p>
+                </li>
+                <li>
+                    <p>Esportes</p>
+                </li>
+            </ul>
+        </section>
+        <section id="politica">
+            <article>
+                <h2>Politica</h2>
+                <h3>Brasil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolorum eius cupiditate repellat asperiores necessitatibus magnam nisi, suscipit quia, consequuntur, tenetur corrupti praesentium totam dolore architecto! Commodi amet ab esse?</p>
+                    <aside>Artigo escrito por Jose</aside>
+            </article>
+        </section>
+        <section id="esportes">
+            <h2>Esporte</h2>
+            <h3>Flamengo</h3>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolorum voluptatem iste ipsum optio esse eveniet, obcaecati suscipit pariatur aut mollitia recusandae quas quae quidem explicabo necessitatibus. Nulla, maxime? Hic!</p>
+                <aside>Escrito por João</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvio Curso em Video</p>
+    </footer>
+    <div id="bola" > </div>
+    
+</body>
+</html>
