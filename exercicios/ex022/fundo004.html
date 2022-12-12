@@ -5,8 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamento</title>
+    <style>
+        body {
+            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+            background-size: 10vh;
+        }
+        div.posicional {
+            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+            background-color: rgb(126, 222, 169);
+            background-size: 5vh;
+            background-repeat: no-repeat;
+            border: 1px solid rgba(0, 33, 30, 0.998);
+            border-radius: 5px;
+            box-shadow: 3px 3px 10px rgb(27, 0, 0);
+            margin: 5px auto;
+            height: 70px;
+            width: 400px;
+            text-align: center;
+            padding: 5px;
+            font-size: 1.2em;
+            font-style: italic;
+            font-weight: normal;
+            color: rgb(255, 255, 255);
+        }
+
+        .posicional:hover {
+            background-color: rgb(110, 62, 231);
+        }
+
+        .posicional:active {
+            color: rgb(133, 5, 5);
+        }
+
+        div#p1 {
+            background-position: left top;
+        }
+
+        div#p2 {
+            background-position: left center;    
+        }
+
+        div#p3 {
+            background-position: left bottom;
+        }
+        
+
+        div#p4 {
+            background-position: center top;
+            text-align: justify;
+        }
+
+        div#p5 {
+            background-position: center center;
+            text-align: justify;
+        }
+
+        div#p6 {
+            background-position: center bottom;
+            text-align: justify;
+        }
+
+        div#p7 {
+            background-position: right top;
+        }
+
+        div#p8 {
+            background-position: right center;
+        }
+
+        div#p9 {
+            background-position: right bottom;
+        }
+        
+
+
+    </style>
 </head>
 <body>
-    
+    <div class="posicional" id="p1">posição left, top </div>
+    <div class="posicional" id="p2">posição left, center</div>
+     <div class="posicional" id="p3">posição left, bottom</div>
+    <div class="posicional" id="p4">posição center, top</div>
+    <div class="posicional" id="p5">posição center, center</div>
+    <div class="posicional" id="p6">posição center, bottom</div>
+    <div class="posicional" id="p7">posição right, top</div>
+    <div class="posicional" id="p8">posição right, center</div>
+    <div class="posicional" id="p9">posição right, bottom</div>
+
 </body>
 </html>
