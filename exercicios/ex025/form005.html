@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <!--
+                input:radio = ultilizado para fazer escolhas dentro do fomulario entre objetos(obs: sepre ultilizar o input com o mesmo nome e adicione um valor para identificalos.)
+            -->
+            <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="imasculino" value="Masculino"><label for="imasculino">Masculino</label><br>
+                <input type="radio" name="sexo" id="iferminino" value="Ferminino"><label for="iferminino">Ferminino</label>
+        </fieldset>
+        <fieldset>
+            <!--
+                input:checbox = ultilizado para selesionar itens.
+            -->
+            <legend>Esporte Favorito</legend>
+            <input type="checkbox" name="basquete" id="ibasquete"><label for="ibasquete">Basquete</label><br>
+            <input type="checkbox" name="futebol" id="ifutebol"><label for="ifutebol">Futebol</label><br>
+            <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">Volei</label><br>
+            <input type="checkbox" name="corrida" id="icorrida"><label for="icorrida">Corrida</label>
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>
+</body>
+</html>
